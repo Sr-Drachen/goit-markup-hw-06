@@ -431,7 +431,6 @@ textarea:focus {
   opacity: 0;
   cursor: pointer;
 }
-
 .form-checkbox:checked + .icon-chek {
   background-image: url(../images/Chulito.svg);
   background-position: center;

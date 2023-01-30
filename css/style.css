@@ -330,7 +330,9 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
 }
-
+.form-field-comment{
+  margin-bottom: 35px;
+}
 .form-label,
 .comment-label {
   display: flex;
@@ -362,7 +364,7 @@ img {
 
 .input-icon {
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 15px;
   transform: translateY(25%);
   display: inline-block;
@@ -406,7 +408,6 @@ textarea:focus {
 .form-field-chek {
   position: relative;
   padding-left: 12px;
-  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -768,7 +769,10 @@ textarea:focus {
 }
 .footer-container {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+}
+.container-info{
+  width: 200px;
 }
 .list-footer {
   margin-top: 0px;

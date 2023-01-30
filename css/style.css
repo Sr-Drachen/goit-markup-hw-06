@@ -410,7 +410,12 @@ textarea:focus {
   padding-left: 12px;
   margin-bottom: 10px;
 }
-
+.check-icon{
+  position: absolute;
+  fill: var(--main-color-light);
+  top: 5px;
+  left: 14px;
+}
 .icon-chek {
   display: inline-block;
   width: 16px;
@@ -423,6 +428,7 @@ textarea:focus {
 
 .form-checkbox {
   position: absolute;
+  top: 3px;
   width: 16px;
   height: 15px;
   margin: -1px;
@@ -431,6 +437,7 @@ textarea:focus {
   opacity: 0;
   cursor: pointer;
 }
+
 .form-checkbox:checked + .icon-chek {
   background-image: url(../images/Chulito.svg);
   background-position: center;
